@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: managed-serviceaccount-bsmy
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/jiazhu-tenant/devfile-sample-go-basic-1/managed-serviceaccount-bsmy@sha256:be83e7bb317c0032036f220450366ecfa4fe7d2bbb4d78a75f0648eb4ed0c709
         imagePullPolicy: Always
         name: container-image
         ports:

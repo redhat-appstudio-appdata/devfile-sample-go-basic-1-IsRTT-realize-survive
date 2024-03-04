@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-go-basic-gr4b
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/jiazhu-tenant/devfile-sample-go-basic-1/devfile-sample-go-basic-gr4b@sha256:98bf1746232259d2ac2d742e1c13d1bbf4f8b2a3e69815928376e91b8d52969a
+        name: my-go
+        resources: {}
+status: {}
